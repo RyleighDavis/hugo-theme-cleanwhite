@@ -92,7 +92,7 @@
 
 </head>
 
-{{ if .Site.GoogleAnalytics }}
+{{ if hugo.IsProduction }}
 {{ template "_internal/google_analytics.html" . }}
 {{ end }}
 
